@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.logo-tesla {
+  width: 50px;
+  height: auto;
+}
+
+.tittle {
+  color: #898989;
+  padding-top: 12px;
+  margin-left: -9px;
+}
+
+.nav-bar {
+  width: 23%;
+  height: 1500px;
+  background-color: black;
+  border-radius: 0px 40px 40px 0px ;
+}
+
+.nav-bar-close {
+    width: 10%;
+    height: 1500px;
+    background-color: black;
+    border-radius: 0px 40px 40px 0px ;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: #BDBDBD;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 13px;
+  border-radius: 20px;
+}
+
+.list-menu {
+  margin-top: 90px;
+}
+
+.list-contact {
+  margin-left: 90px;
+  margin-top: 350px;
+}
+
+.menu-icon {
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 50px;
+}
+
+li:hover {
+  background-color: #464646;
+  border: solid 1px white;
+  transition: 0.8s;
+  box-shadow: white;
+}
+
+p {
+  position: absolute;
+  margin-top: -28px;
+  margin-left: 90px;
+}
+
+.btn-close {
+  width: 50px;
+  border-radius: 50%;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+
+.btn-close-img {
+  width: 30px;
+  height: auto;
+}
