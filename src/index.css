@@ -50,6 +50,7 @@ li {
   width: 90%;
   margin-left: 13px;
   border-radius: 20px;
+  padding: 5px;
 }
 
 .list-menu {
@@ -57,7 +58,6 @@ li {
 }
 
 .list-contact {
-  margin-left: 90px;
   margin-top: 350px;
 }
 
@@ -69,7 +69,6 @@ li {
 
 li:hover {
   background-color: #464646;
-  border: solid 1px white;
   transition: 0.8s;
   box-shadow: white;
 }
@@ -94,4 +93,48 @@ p {
 .btn-close-img {
   width: 30px;
   height: auto;
+}
+
+.list-clicked {
+  margin-left: -20px;
+}
+
+.logo-clicked {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.btn-close-clicked {
+  width: 50px;
+  border-radius: 50%;
+  height: auto;
+  background-color: white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.list-contact-clicked {
+  margin-top: 250px;
+  margin-left: -20px;
+}
+
+.li-clicked {
+  color: #BDBDBD;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  width: 70%;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.menu-icon-clicked {
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 23px;
 }
